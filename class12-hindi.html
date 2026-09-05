@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Class 12 Hindi | StudyTown</title>
+
+
+  <!-- Main StudyTown CSS -->
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+
+  <style>
+
+    /* =====================================
+       PDF PAGE
+    ===================================== */
+
+    .pdf-container {
+
+      max-width: 1200px;
+
+      margin: 0 auto;
+
+      padding: 30px 20px;
+
+    }
+
+
+    /* =====================================
+       TITLE
+    ===================================== */
+
+    .pdf-title {
+
+      text-align: center;
+
+      margin-bottom: 25px;
+
+    }
+
+
+    .pdf-title h1 {
+
+      margin-bottom: 10px;
+
+    }
+
+
+    /* =====================================
+       BUTTONS
+    ===================================== */
+
+    .pdf-actions {
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      gap: 15px;
+
+      flex-wrap: wrap;
+
+      margin-bottom: 25px;
+
+    }
+
+
+    /* =====================================
+       PDF VIEWER
+    ===================================== */
+
+    .pdf-viewer {
+
+      width: 100%;
+
+      height: 80vh;
+
+      min-height: 600px;
+
+      border: 1px solid #ddd;
+
+      border-radius: 12px;
+
+      background: #ffffff;
+
+    }
+
+
+    /* =====================================
+       MOBILE
+    ===================================== */
+
+    @media (max-width: 600px) {
+
+      .pdf-container {
+
+        padding: 20px 10px;
+
+      }
+
+
+      .pdf-viewer {
+
+        height: 70vh;
+
+        min-height: 500px;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <main class="section">
+
+
+    <div class="pdf-container">
+
+
+      <!-- =================================
+           COURSE TITLE
+      ================================== -->
+
+      <div class="pdf-title">
+
+
+        <span class="small-title">
+
+          STUDYTOWN COURSE
+
+        </span>
+
+
+        <h1>
+
+          Class 12 Hindi
+
+        </h1>
+
+
+        <p>
+
+          Complete Study Material
+
+        </p>
+
+
+      </div>
+
+
+
+      <!-- =================================
+           ACTION BUTTONS
+      ================================== -->
+
+      <div class="pdf-actions">
+
+
+        <!-- DOWNLOAD PDF -->
+
+        <a
+          href="class12-hindi.pdf"
+          download
+          class="primary-btn"
+        >
+
+          Download PDF ⬇
+
+        </a>
+
+
+
+        <!-- BACK TO COURSES -->
+
+        <a
+          href="my-courses.html"
+          class="primary-btn"
+        >
+
+          ← My Courses
+
+        </a>
+
+
+      </div>
+
+
+
+      <!-- =================================
+           PDF VIEWER
+
+           PDF is in the SAME folder
+           as this HTML file
+      ================================== -->
+
+      <iframe
+        class="pdf-viewer"
+        src="class12-hindi.pdf"
+        title="Class 12 Hindi Study Material"
+      >
+
+        Your browser does not support PDF viewing.
+
+      </iframe>
+
+
+    </div>
+
+
+  </main>
+
+
+</body>
+
+</html>
